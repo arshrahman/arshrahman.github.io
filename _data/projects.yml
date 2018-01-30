@@ -1,0 +1,9 @@
+- category: Data Science
+  projects: 
+  - project: Application of Reinforcement Learning in Weather Routing - Dissertation
+    url: https://bitbucket.org/account/signin/?next=/debabrota_basu/weather_routing
+    date: Aug 2017 &mdash; Present
+    description: Optimize velocity of a vessel so as to reduce fuel consumption rate while meeting port schedules under harsh weather conditions using calculus of variation and Reinforcement learning approaches such as Q-learning.
+  - project: Italian hand gesture recognition
+    url: https://github.com/arshrahman/Machine-Learning
+    description: Built Image classification agorithms such as CNN, RNN to recognize Italian hand signs in python sci-kit learn and TensorFlow environments
