@@ -27,7 +27,7 @@
 
       <main>
 
-        <!-- begin Education -->
+        <!-- Education -->
         <h4>Education</h4>
         {% for education in site.data.education %}
           <div class="data">
@@ -39,10 +39,10 @@
             {% endfor %}
           </div>
         {% endfor %}
-        <!-- end Education -->
+        <!-- Education -->
 
 
-        <!-- begin Project Experiences -->
+        <!-- Project Experiences -->
         <h4>Project Experiences</h4>
         {% for category in site.data.projects %}
           <div class="data">
@@ -56,19 +56,33 @@
             {% endfor %}
           </div>
         {% endfor %}
-        <!-- end Education -->        
+        <!-- Project Experiences -->        
 
-
-
-        <!--
-        <h4>Project Experience</h4>
-        {% for post in site.posts %}
-          <div>
-            <h5><a href="{{ post.git }}">{{ post.title }}</a></h5>
-            {{ post.content }}
+        <!-- Skills -->
+        {% for skill in site.data.skills %}
+          <h4>{{skill.title}}</h4>
+          <div class="data">
+            <p>{{skill.remarks}}</p>
+            <h6>{{skill.description}}</h6>
           </div>
         {% endfor %}
-        -->
+        <!-- Skills --> 
+
+        <!-- Work Experiences -->
+        {% for category in site.data.experience %}
+          <h4>{{category.category}}</h4>
+          {% for experience in category.experiences %}
+            <div class="data">
+              <h6>{{ experience.title }}</h6>
+              <h6>{{ experience.duration }}</h6>
+              {% for summary in experience.summaries %}
+                <p>{{summary.description}}</p>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        {% endfor %}
+        <!-- Work Experiences -->   
+
 
       </main>
 
