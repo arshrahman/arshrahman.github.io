@@ -1,9 +1,14 @@
 - category: Data Science
   projects: 
-  - project: Application of Reinforcement Learning in Weather Routing - Dissertation
+  - title: Application of Reinforcement Learning in Weather Routing - Dissertation
     url: https://bitbucket.org/account/signin/?next=/debabrota_basu/weather_routing
     date: Aug 2017 &mdash; Present
     description: Optimize velocity of a vessel so as to reduce fuel consumption rate while meeting port schedules under harsh weather conditions using calculus of variation and Reinforcement learning approaches such as Q-learning.
-  - project: Italian hand gesture recognition
+  
+  - title: Dance Tracker
+    url: https://github.com/cs3002-bballidance/Integration
+    description: Built an wearable device that tracks and predicts dance moves using machine learning and IoT sensors. CNN and LSTM algorithms were used to train the time-series model and was implemented with Keras TensorFlow framework
+
+  - title: Italian Hand Gesture Recognition
     url: https://github.com/arshrahman/Machine-Learning
     description: Built Image classification agorithms such as CNN, RNN to recognize Italian hand signs in python sci-kit learn and TensorFlow environments

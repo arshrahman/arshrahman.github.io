@@ -22,7 +22,7 @@
       <div class="content-section">
 
         <p>
-Hello, there. I’m Abdul Rahman. I’m a final year Computer Engineering student from the <a href="http://www.ceg.nus.edu.sg">National University of Singapore</a>. I have a comprehensive knowledge in both Computer architecture as well as software development. My current focus is on research and application development using Artificial Intelligence and Machine Learning.
+Hello, there. I’m Abdul Rahman, a final year Computer Engineering student from the <a href="http://www.ceg.nus.edu.sg">National University of Singapore</a>. I have a comprehensive knowledge in both <b>computer architecture</b> as well as <b>software development</b>. My current focus is on research and development of <b>Machine Learning</b> based applications.
         </p>
 
        <!-- <p>
@@ -41,11 +41,9 @@ I’m currently lending my brain to <a href="https://envato.com">Envato</a> as t
         <h4>Education</h4>
         {% for education in site.data.education %}
           <div class="data">
-            <h6>
-              <span style="display: block; float:left;">{{ education.degree }}</span>
-              <span style="display: block; float:right;">{{ education.date }}</span>
-            </h6>
-            <p style="clear:both">{{education.uni}}</p>
+            <h6>{{ education.degree }}</h6>
+            <h6>{{ education.date }}</h6>
+            <p>{{education.uni}}</p>
             {% for summary in education.summaries %}
               <p>{{summary.description}}</p>
             {% endfor %}
@@ -54,9 +52,25 @@ I’m currently lending my brain to <a href="https://envato.com">Envato</a> as t
         <!-- end Education -->
 
 
+        <!-- begin Project Experiences -->
+        <h4>Project Experience</h4>
+        {% for category in site.data.projects %}
+          <div class="data">
+            <h5>{{category.category}}</h5>
+            {% for project in category.projects %}
+            <div class="data">
+              <h6><a href="{{ project.url }}">{{ project.title }}</a></h6>
+              <h6>{{ project.date }}</h6>
+              <p>{{project.description}}</p>
+            </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+        <!-- end Education -->        
 
 
 
+        <!--
         <h4>Project Experience</h4>
         {% for post in site.posts %}
           <div>
@@ -64,6 +78,8 @@ I’m currently lending my brain to <a href="https://envato.com">Envato</a> as t
             {{ post.content }}
           </div>
         {% endfor %}
+        -->
+
       </main>
 
       <footer>
