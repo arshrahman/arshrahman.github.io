@@ -7,8 +7,29 @@
   
   - title: Dance Tracker
     url: https://github.com/cs3002-bballidance/Integration
-    description: Built an wearable device that tracks and predicts dance moves using machine learning and IoT sensors. CNN and LSTM algorithms were used to train the time-series model and was implemented with Keras TensorFlow framework
+    description: Built an wearable device that tracks and predicts dance moves using machine learning and IoT sensors. CNN and LSTM algorithms were used to train the time-series data and was implemented with Keras TensorFlow framework.
 
   - title: Italian Hand Gesture Recognition
     url: https://github.com/arshrahman/Machine-Learning
-    description: Built Image classification agorithms such as CNN, RNN to recognize Italian hand signs in python sci-kit learn and TensorFlow environments
+    description: Built Image classification agorithms such as CNN, RNN to recognize Italian hand signs in python sci-kit learn and TensorFlow environments.
+
+- category: Mobile App Development
+  projects: 
+  - title: Dhikr & Dua
+    url: https://play.google.com/store/apps/details?id=com.arshan.dhikrdua
+    description: Dhikr & Dua is an Islamic supplication app built for the Android platform. It is built in Java with Firebase as backend and has advanced features like media playback and push notification service. It has gartnered more than 300,000 download since it's inception from around the world.
+  
+  - title: iBudget
+    url: https://github.com/arshrahman/toteboard
+    description: iBudget is an iOS mobile application that aims to help consumers cut unnecessary spendings and save money. Users can set goals, plan their budget and record their purchases. 
+
+- category: Software Development
+  projects: 
+  - title: TaskBook
+    url: https://github.com/CS2103AUG2016-T17-C2/main
+    description: TaskBook is a cross-platform desktop application built in Java with JavaFX for the user interface design. It is targeted to advance users who like to for quickly manage their tasks all with keyboard shotcuts without ever needing a mouse.
+
+- category: Embedded System Development
+  projects: 
+  - title: Caring for Aquatic Resources & Environments (CARE)
+    description: CARE is an embedded system that aims to monitor for pollutants, tresspassers and overgrowth of Algae in reservoirs. It has accelerometer, light sensor, Temperature sensor and ARM7 based LPC1769 micro-controller and is programmed in C language.
