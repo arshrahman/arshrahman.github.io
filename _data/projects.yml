@@ -11,23 +11,23 @@
 
   - title: Italian Hand Gesture Recognition
     url: https://github.com/arshrahman/Machine-Learning
-    description: Built CNN and RNN Image classification algorithms using python sci-kit learn and TensorFlow environments to recognize Italian hand signs with 80% accuracy.
+    description: Built CNN and RNN Image classification algorithms using python scikit-learn and TensorFlow environments to recognize Italian hand signs with 80% accuracy.
 
 - category: Mobile App Development
   projects: 
   - title: Dhikr & Dua
     url: https://play.google.com/store/apps/details?id=com.arshan.dhikrdua
-    description: Dhikr & Dua is an Islamic supplication app built for the Android platform. It is built in Java with Firebase as backend and has advanced features like media playback and push notification service. It has gartnered more than 300,000 download since it's inception from around the world.
+    description: Dhikr & Dua is an Islamic supplication app built for the Android platform. It is built in Java with Firebase as backend and has advanced features like media playback and push notification service. It has garnered more than 300,000 download since it's inception from around the world.
   
   - title: iBudget
     url: https://github.com/arshrahman/toteboard
-    description: iBudget is an iOS mobile application that aims to help consumers cut unnecessary spendings and save money. Users can set goals, plan their budget and record their purchases. 
+    description: Designed and Developed iBudget, an iOS based financial application as a team for my diploma major project. Users can set goals, plan their budget and record their purchases. The app was well recieved by the supervisors and led our team to attain an 'A' grade for the course.
 
 - category: Software Development
   projects: 
   - title: TaskBook
     url: https://github.com/CS2103AUG2016-T17-C2/main
-    description: TaskBook is a cross-platform desktop application built in Java with JavaFX for the user interface design. It is targeted to advance users who like to for quickly manage their tasks all with keyboard shotcuts without ever needing a mouse.
+    description: Leads a team, conceptualized and developed TaskBook, a cross-platform desktop application built in Java with JavaFX for the user interface design. It is targeted at advance users who like to quickly manage their tasks all with keyboard shortcuts without needing a mouse.
 
 - category: Embedded System Development
   projects: 
