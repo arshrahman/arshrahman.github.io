@@ -18,17 +18,15 @@ sass:
 # About/contact
 author:
   name:              Abdul Rahman
-  url:               www.arshanapps.com
+  url:               arshanapps.com
   email:             arsh.abdulrahman@gmail.com
 
 # Custom vars
 version:             1.0.0
-github:
-  repo:              https://github.com/arshrahman/
-google_analytics:    UA-3363703-15
-twitter:             arshanrahman
-github:              arshrahman
-dribbble:            jamigibbs
+google_analytics:    UA-49818994-1
+github:              https://github.com/arshrahman/
+linkedin:            https://www.linkedin.com/in/arshanrahman/
+stackoverflow:       https://stackoverflow.com/users/1079773/abdul-rahman
 
 # Gems
 gems:
