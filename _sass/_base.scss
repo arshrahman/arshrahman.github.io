@@ -33,7 +33,7 @@ body {
 
 // No `:visited` state is required by default (browsers will use `a`)
 a {
-  color: $gray-1;
+  color: $teal-500;
   text-decoration: none;
   font-weight: bold;
   @include transition(color .2s ease-in-out);
@@ -41,7 +41,7 @@ a {
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    color: $link-color;
+    color: $teal-a700;
     text-decoration: none;
   }
 
@@ -117,3 +117,59 @@ ul {
     margin: 0.5rem 0;
   }
 }
+
+
+.lbl-toggle::before {
+  content: ' ';
+  display: inline-block;
+  border-top: 0.3rem solid transparent;
+  border-bottom: 0.3rem solid transparent;
+  border-left: 0.3rem solid currentColor;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+  transition: transform .2s ease-out;
+}
+
+
+.lbl-toggle {
+  display: block;
+  margin: 0rem;
+  padding: 0 0.5rem;
+  background: $light-teal;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  color: $teal-500;
+
+  h4 {
+    display: inline-block;
+    color: $teal-500;
+  }
+
+  h4:hover {
+    color: $teal-a700;
+  }
+}
+
+.lbl-toggle:hover {
+  color: $teal-a700;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 200rem;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
