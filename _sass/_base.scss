@@ -42,7 +42,7 @@ a {
   &:hover,
   &:focus {
     color: $teal-a700;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   strong {
