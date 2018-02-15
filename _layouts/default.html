@@ -33,9 +33,9 @@
         <div class="collapsible-content">
           {% for education in site.data.education %}
             <div class="data">
-              <h6>{{ education.degree }}</h6>
+              <h6>{{ education.uni }}</h6>
               <h6>{{ education.date }}</h6>
-              <p>{{education.uni}}</p>
+              <p>{{education.degree}}</p>
               {% for summary in education.summaries %}
                 <p>{{summary.description}}</p>
               {% endfor %}

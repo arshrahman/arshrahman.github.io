@@ -3,7 +3,7 @@
   - title: Application of Reinforcement Learning in Weather Routing - Dissertation
     url: https://bitbucket.org/account/signin/?next=/debabrota_basu/weather_routing
     date: Aug 2017 &mdash; Present
-    description: Optimize velocity of a vessel to reduce fuel consumption rate while meeting port schedules under harsh weather conditions using calculus of variation and Q-learning.
+    description: Optimize velocity of a vessel to reduce fuel consumption rate while meeting port schedules under harsh weather conditions using calculus of variation, regularized recursive least square estimation and Q-learning.
 
   - title: Dance Tracker
     url: https://github.com/cs3002-bballidance/Integration
