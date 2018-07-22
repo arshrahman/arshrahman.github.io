@@ -29,6 +29,6 @@ linkedin:            https://www.linkedin.com/in/arshanrahman/
 stackoverflow:       https://stackoverflow.com/users/1079773/abdul-rahman
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
